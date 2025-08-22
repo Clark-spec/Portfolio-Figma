@@ -1,0 +1,36 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #121212;
+    box-shadow: 0 4px 10px rgba(1, 238, 255, 0.2);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: #01eeff; 
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffffff; 
+    box-shadow: 0 0 20px #01eeff; 
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #f0f0f0;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+nav a:hover {
+    color: #01EEFF;
+    text-shadow: 0 0 5px#01EEFF;
+}
+
